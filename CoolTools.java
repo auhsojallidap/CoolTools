@@ -10,7 +10,7 @@ public class CoolTools {
     asciiArt();
     while (!loop){
       System.out.println("");
-      System.out.println("===SECURITY===");
+      System.out.println("===SECURITyyyyY===");
        System.out.print("PIN : ");
       String num1 = imp.next();
 

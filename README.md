@@ -1,2 +1,3 @@
-# CoolTools-Java-Random-
-Vega
+# CoolTools (Java-Random)
+
+Vegeta

@@ -16,6 +16,7 @@ public class CoolTools {
     while (!loop){
       System.out.println("===SECURITY===");
        System.out.print("PIN : ");
+      System.out.println("To exit program type "Exit""")
       String num1 = imp.next();
 
       if (num1.equals(pin)){
@@ -29,7 +30,7 @@ public class CoolTools {
       System.out.println("");
       System.out.println("You a Nigga! Try Again :>");
       } 
-      else if (num1.equals("Exit", "exit'")){
+      else if (num1.equals("Exit" || num1.equals("exit")){
         System.out.println("Exiting. . .");
         break;
       }

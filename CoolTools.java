@@ -15,7 +15,7 @@ public class CoolTools {
     asciiArt();
     while (!loop){
       System.out.println("===SECURITY===");
-      System.out.println("To exit program type Exit");
+      System.out.println("(To exit program type Exit)");
       System.out.print("PIN : ");
       
       String num1 = imp.next();

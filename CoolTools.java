@@ -31,7 +31,7 @@ public class CoolTools {
       System.out.println("");
       System.out.println("You a Nigga! Try Again :>");
       } 
-      else if (num1.equals("Exit" || num1.equals("exit")){
+      else if (num1.equals("Exit") || num1.equals("exit")){
         System.out.println("Exiting. . .");
         break;
       }

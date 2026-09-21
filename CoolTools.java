@@ -103,7 +103,11 @@ public class CoolTools {
       loop = true;
     } else if (choice == 3){
     moneyChangeRate();
-    }else if (choice == 4){
+    }
+    else if (choice == 4){
+      infLoop();
+    }
+    else if (choice == 5){
       System.out.println("==============");
       System.out.println("Exiting. . .");
       System.out.println("==============");

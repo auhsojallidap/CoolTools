@@ -335,7 +335,7 @@ public static void infLoop(){
     System.out.println("[2] == GUESS THE NUMBER");
     System.out.println("[3] == MONEY EXCHANGE RATE");
     System.out.println("[4] == !!SECRET TOOL!! (USE AT YOUR OWN RISK)");
-    System.out.println("[4] == EXIT");    
+    System.out.println("[5] == EXIT");    
   }
     
   }

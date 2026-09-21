@@ -75,11 +75,11 @@ public class CoolTools {
     //input
     int choice = imp.nextInt();
 
-    //PREVENT ENTERING 5 PATAAS 
-    while (choice > 4){
+    //PREVENT ENTERING 6 PATAAS 
+    while (choice > 5){
     dashboardChoice();
     System.out.println("============================");
-    System.out.println("INVALID! PICK 1 - 4 ONLY.");
+    System.out.println("INVALID! PICK 1 - 5 ONLY.");
     System.out.println("============================");      
     System.out.print("CHOICE : "); 
     while (!imp.hasNextInt()) {
@@ -286,6 +286,27 @@ public static void moneyChangeRate(){
   System.out.println("ON GOING");
   System.out.println("========");
 }
+
+
+// Random Loop EZ
+public static void infLoop(){
+  String yesno = imp.nextLine();
+  boolean loop = false;
+  while (!loop){
+  System.out.println();
+  System.out.println("Are you sure you want to use Secret Tool? (Y/N)");
+  System.out.print("CHOICE: ");
+  imp.nextLine();
+
+    if (yesno.equals("y") || yesno.equals("Y"));{
+      for (int i = 1; ; i++) {
+    System.out.print(i);
+      }
+
+  }
+}
+}
+
   
 
 // ASCII ART
@@ -313,6 +334,7 @@ public static void moneyChangeRate(){
     System.out.println("[1] == CALCULATOR");
     System.out.println("[2] == GUESS THE NUMBER");
     System.out.println("[3] == MONEY EXCHANGE RATE");
+    System.out.println("[4] == !!SECRET TOOL!! (USE AT YOUR OWN RISK)");
     System.out.println("[4] == EXIT");    
   }
     

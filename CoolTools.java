@@ -298,7 +298,7 @@ public static void infLoop(){
   boolean loop = false;
   while (!loop){
   System.out.println();
-  System.out.println("Are you sure you want to use Secret Tool? (Y/N)");
+  System.out.println("Are you sure you want to use Secret Tool? (Y/y)");
   System.out.print("CHOICE: ");
   imp.nextLine();
 

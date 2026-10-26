@@ -93,34 +93,26 @@ public class CoolTools {
     choice = imp.nextInt(); 
     } 
     
-
-
-    if (choice == 1){
-      calculator();
-      loop = true;
-    } else if(choice == 2){
-      guessGame();
-      loop = true;
-    } else if (choice == 3){
-    moneyChangeRate();
-    }
-    else if (choice == 4){
-      infLoop();
-    }
-    else if (choice == 5){
+      switch (choice){
+        case 1 : calculator(); loop = true; break;
+        case 2 : guessGame(); loop = true; break;
+        case 3 : moneyChangeRate(): loop true; break;
+        case 4 : infloop();  
+        case 5 : 
       System.out.println("==============");
       System.out.println("Exiting. . .");
       System.out.println("==============");
-      break;
-    }else {
+          break;
+          default : 
       System.out.println("==============");
       System.out.println("INVALID");
       System.out.println("==============");
-    }
-  }
-}
-  
+          
+      }
 
+
+
+ 
 
 
 // CALCULATOR
